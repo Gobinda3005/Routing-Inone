@@ -17,6 +17,8 @@ const App = () => {
   return (
     <div>
       <Header/>
+      <br/>
+      <br/>
       <Routes>
         <Route
 					path='/'
