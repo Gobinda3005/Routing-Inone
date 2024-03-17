@@ -62,12 +62,12 @@ const Header = () => {
         </li> */}
           <li className="nav-item">
             <button>
-					     <Link to='/'>LoginForm</Link>
+					     <Link to='/'>Counter</Link>
 				    </button>
           </li>
           <li className="nav-item">
               <button>
-					      <Link to='/LoginForm'>LoginForm</Link>
+					      <Link to='/Counter'>Counter</Link>
 				      </button>
           </li>
           <li className="nav-item">
@@ -77,37 +77,37 @@ const Header = () => {
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/Accordin'>Accordin</Link>
+					      <Link to='/Effect'>Effect</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/Accordin'>Accordin</Link>
+					      <Link to='/Bgchange'>Bgchange</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/Accordin'>Accordin</Link>
+					      <Link to='/Context'>Context</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/Accordin'>Accordin</Link>
+					      <Link to='/Ddown'>Ddown</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/Accordin'>Accordin</Link>
+					      <Link to='/Qupdate'>Qupdate</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/Accordin'>Accordin</Link>
+					      <Link to='/Movieeffect'>Movieeffect</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/Accordin'>Accordin</Link>
+					      <Link to='/Regform'>Regform</Link>
 				      </button>
           </li>
           <li className="nav-item">
