@@ -4,12 +4,12 @@ import './App.css'
 import Header from './Header';
 // import Counter from '../../countdown-Timer/src/App';
 import Accordin1 from './Pages/Accordin';
-import Effect from '../../use-Effect/src/App';
+// import Effect from '../../use-Effect/src/App';
 import ChangingBgcolor from '../../Changing-Bgcolor/src/App';
 // import ContextApi from '../../Context_Api/src/App';
 import Qupdate from '../../quote-Update/src/App';
 import Ddown from '../../L-Login/src/App';
-// import Movieeffect from '../../useEffect-Movie/src/App';
+import Movieeffect from '../../useEffect-Movie/src/App';
 import LoginForm from '../../Login-Form/src/App';
 import Todo from './Pages/Todo';
 
@@ -33,8 +33,8 @@ const App = () => {
 					element={<Accordin1 />}>
         </Route>
         <Route
-					path='/Effect'
-					element={<Effect />}>
+					path='/Movieeffect'
+					element={<Movieeffect />}>
         </Route>
 				<Route
 					path='/Bgchange'
@@ -52,9 +52,10 @@ const App = () => {
 					path='/Ddown'
 					element={<Ddown />}>
         </Route>
+        
         <Route
-					path='/Effect'
-					element={<Effect />}>
+					path='/Movieeffect'
+					element={<Movieeffect />}>
         </Route>
         <Route
 					path='/Regform'

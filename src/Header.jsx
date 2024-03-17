@@ -77,7 +77,7 @@ const Header = () => {
           </li>
           <li className="nav-item">
               <button>
-					      <Link to='/Effect'>Effect</Link>
+              <Link to='/Movieeffect'>Movieeffect</Link>
 				      </button>
           </li>
           <li className="nav-item">
@@ -102,7 +102,7 @@ const Header = () => {
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/Effect'>Effect</Link>
+					      <Link to='/Movieeffect'>Movieeffect</Link>
 				      </button>
           </li>
           <li className="nav-item">
