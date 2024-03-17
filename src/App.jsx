@@ -49,8 +49,8 @@ const App = () => {
 					element={<Movieeffect />}>
         </Route>
         <Route
-					path='/Ddown'
-					element={<Ddown />}>
+					path='/Regform'
+					element={<LoginForm />}>
         </Route>
         
         <Route
