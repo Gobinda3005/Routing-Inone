@@ -33,33 +33,33 @@ const App = () => {
 					element={<Accordin1 />}>
         </Route>
         <Route
-					path='/Regform'
-					element={<LoginForm />}>
+					path='*'
+					element={<Accordin1 />}>
         </Route>
 				<Route
-					path='/Regform'
-					element={<LoginForm />}>
+					path='*'
+					element={<Accordin1 />}>
         </Route>
         {/* <Route
           path='/Context'
           element={<ContextApi />}>
         </Route> */}
         <Route
-					path='/Regform'
-					element={<LoginForm />}>
+					path='*'
+					element={<Accordin1 />}>
         </Route>
         <Route
-					path='/Regform'
-					element={<LoginForm />}>
+					path='*'
+					element={<Accordin1 />}>
         </Route>
         
         <Route
-					path='/Regform'
-					element={<LoginForm />}>
+					path='*'
+					element={<Accordin1 />}>
         </Route>
         <Route
-					path='/Regform'
-					element={<LoginForm />}>
+					path='*'
+					element={<Accordin1 />}>
         </Route>
         <Route
 					path='*'

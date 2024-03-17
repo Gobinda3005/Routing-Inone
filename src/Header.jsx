@@ -77,37 +77,37 @@ const Header = () => {
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/LoginForm'>LoginForm</Link>
+              <Link to='/Accordin'>Accordin</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/LoginForm'>LoginForm</Link>
+              <Link to='/Accordin'>Accordin</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-					      <Link to='/Context'>Context</Link>
+              <Link to='/Accordin'>Accordin</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/LoginForm'>LoginForm</Link>
+              <Link to='/Accordin'>Accordin</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/LoginForm'>LoginForm</Link>
+              <Link to='/Accordin'>Accordin</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/LoginForm'>LoginForm</Link>
+              <Link to='/Accordin'>Accordin</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-					      <Link to='/Regform'>Regform</Link>
+              <Link to='/Accordin'>Accordin</Link>
 				      </button>
           </li>
           <li className="nav-item">
