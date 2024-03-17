@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes,Route, Outlet } from 'react-router-dom';
 import './App.css'
 import Header from './Header';
-import Counter from '../../countdown-Timer/src/App';
+// import Counter from '../../countdown-Timer/src/App';
 import Accordin1 from './Pages/Accordin';
 import Effect from '../../use-Effect/src/App';
 import ChangingBgcolor from '../../Changing-Bgcolor/src/App';
@@ -22,11 +22,11 @@ const App = () => {
       <Routes>
         <Route
 					path='/'
-					element={<Counter />}>
+					element={<LoginForm />}>
         </Route>
 				<Route
 					path='/Counter'
-					element={<Counter />}>
+					element={<LoginForm />}>
         </Route>
         <Route
 					path='*'

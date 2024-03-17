@@ -62,12 +62,12 @@ const Header = () => {
         </li> */}
           <li className="nav-item">
             <button>
-					     <Link to='/'>Counter</Link>
+					     <Link to='/'>LoginForm</Link>
 				    </button>
           </li>
           <li className="nav-item">
               <button>
-					      <Link to='/Counter'>Counter</Link>
+					      <Link to='/LoginForm'>LoginForm</Link>
 				      </button>
           </li>
           <li className="nav-item">
