@@ -8,8 +8,8 @@ import Accordin1 from './Pages/Accordin';
 // import ChangingBgcolor from '../../Changing-Bgcolor/src/App';
 // import ContextApi from '../../Context_Api/src/App';
 // import Qupdate from '../../quote-Update/src/App';
-import Ddown from '../../L-Login/src/App';
-import Movieeffect from '../../useEffect-Movie/src/App';
+// import Ddown from '../../L-Login/src/App';
+// import Movieeffect from '../../useEffect-Movie/src/App';
 import LoginForm from '../../Login-Form/src/App';
 import Todo from './Pages/Todo';
 
@@ -33,20 +33,20 @@ const App = () => {
 					element={<Accordin1 />}>
         </Route>
         <Route
-					path='/Movieeffect'
-					element={<Movieeffect />}>
+					path='/Regform'
+					element={<LoginForm />}>
         </Route>
 				<Route
-					path='/Movieeffect'
-					element={<Movieeffect />}>
+					path='/Regform'
+					element={<LoginForm />}>
         </Route>
         {/* <Route
           path='/Context'
           element={<ContextApi />}>
         </Route> */}
         <Route
-					path='/Movieeffect'
-					element={<Movieeffect />}>
+					path='/Regform'
+					element={<LoginForm />}>
         </Route>
         <Route
 					path='/Regform'
@@ -54,8 +54,8 @@ const App = () => {
         </Route>
         
         <Route
-					path='/Movieeffect'
-					element={<Movieeffect />}>
+					path='/Regform'
+					element={<LoginForm />}>
         </Route>
         <Route
 					path='/Regform'

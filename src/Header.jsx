@@ -77,12 +77,12 @@ const Header = () => {
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/Movieeffect'>Movieeffect</Link>
+              <Link to='/LoginForm'>LoginForm</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/Movieeffect'>Movieeffect</Link>
+              <Link to='/LoginForm'>LoginForm</Link>
 				      </button>
           </li>
           <li className="nav-item">
@@ -97,12 +97,12 @@ const Header = () => {
           </li>
           <li className="nav-item">
               <button>
-              <Link to='/Movieeffect'>Movieeffect</Link>
+              <Link to='/LoginForm'>LoginForm</Link>
 				      </button>
           </li>
           <li className="nav-item">
               <button>
-					      <Link to='/Movieeffect'>Movieeffect</Link>
+              <Link to='/LoginForm'>LoginForm</Link>
 				      </button>
           </li>
           <li className="nav-item">
