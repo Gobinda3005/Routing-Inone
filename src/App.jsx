@@ -5,7 +5,7 @@ import Header from './Header';
 // import Counter from '../../countdown-Timer/src/App';
 import Accordin1 from './Pages/Accordin';
 // import Effect from '../../use-Effect/src/App';
-import ChangingBgcolor from '../../Changing-Bgcolor/src/App';
+// import ChangingBgcolor from '../../Changing-Bgcolor/src/App';
 // import ContextApi from '../../Context_Api/src/App';
 import Qupdate from '../../quote-Update/src/App';
 import Ddown from '../../L-Login/src/App';
@@ -37,8 +37,8 @@ const App = () => {
 					element={<Movieeffect />}>
         </Route>
 				<Route
-					path='/Bgchange'
-          element={<ChangingBgcolor />}>
+					path='/Movieeffect'
+					element={<Movieeffect />}>
         </Route>
         {/* <Route
           path='/Context'

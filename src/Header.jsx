@@ -82,7 +82,7 @@ const Header = () => {
           </li>
           <li className="nav-item">
               <button>
-					      <Link to='/Bgchange'>Bgchange</Link>
+              <Link to='/Movieeffect'>Movieeffect</Link>
 				      </button>
           </li>
           <li className="nav-item">
