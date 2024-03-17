@@ -97,7 +97,7 @@ const Header = () => {
           </li>
           <li className="nav-item">
               <button>
-					      <Link to='/Qupdate'>Qupdate</Link>
+              <Link to='/Movieeffect'>Movieeffect</Link>
 				      </button>
           </li>
           <li className="nav-item">

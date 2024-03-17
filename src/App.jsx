@@ -7,7 +7,7 @@ import Accordin1 from './Pages/Accordin';
 // import Effect from '../../use-Effect/src/App';
 // import ChangingBgcolor from '../../Changing-Bgcolor/src/App';
 // import ContextApi from '../../Context_Api/src/App';
-import Qupdate from '../../quote-Update/src/App';
+// import Qupdate from '../../quote-Update/src/App';
 import Ddown from '../../L-Login/src/App';
 import Movieeffect from '../../useEffect-Movie/src/App';
 import LoginForm from '../../Login-Form/src/App';
@@ -45,8 +45,8 @@ const App = () => {
           element={<ContextApi />}>
         </Route> */}
         <Route
-					path='*'
-					element={<Qupdate />}>
+					path='/Movieeffect'
+					element={<Movieeffect />}>
         </Route>
         <Route
 					path='/Ddown'
