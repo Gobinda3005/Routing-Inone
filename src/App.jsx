@@ -9,7 +9,7 @@ import ChangingBgcolor from '../../Changing-Bgcolor/src/App';
 // import ContextApi from '../../Context_Api/src/App';
 import Qupdate from '../../quote-Update/src/App';
 import Ddown from '../../L-Login/src/App';
-import Movieeffect from '../../useEffect-Movie/src/App';
+// import Movieeffect from '../../useEffect-Movie/src/App';
 import LoginForm from '../../Login-Form/src/App';
 import Todo from './Pages/Todo';
 
@@ -52,10 +52,9 @@ const App = () => {
 					path='/Ddown'
 					element={<Ddown />}>
         </Route>
-        
         <Route
-					path='/Movieeffect'
-					element={<Movieeffect />}>
+					path='/Effect'
+					element={<Effect />}>
         </Route>
         <Route
 					path='/Regform'

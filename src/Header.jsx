@@ -102,7 +102,7 @@ const Header = () => {
           </li>
           <li className="nav-item">
               <button>
-					      <Link to='/Movieeffect'>Movieeffect</Link>
+              <Link to='/Effect'>Effect</Link>
 				      </button>
           </li>
           <li className="nav-item">
