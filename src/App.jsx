@@ -4,7 +4,7 @@ import './App.css'
 import Header from './Header';
 // import Counter from './Allpages/countdown-Timer/src/App';
 // import Accordin1 from './Allpages/Accordion1-Project/src/Acc';
-import Effect from './Allpages/use-Effect/src/App';
+import Effect from './Pages/Effect';
 import ChangingBgcolor from './Pages/Bgchange';
 // import ContextApi from '../../Context_Api/src/App';
 import Qupdate from './Pages/Qupdate';
@@ -12,8 +12,8 @@ import Qupdate from './Pages/Qupdate';
 // import Movieeffect from './Allpages/useEffect-Movie/src/App';
 // import LoginForm from './Allpages/Login-Form/src/App';
 import CountdownTimer from './Allpages/countdown-Timer/src/App';
-import Movies from './Allpages/useEffect-Movie/src/App';
-import Login from './Allpages/Login-Form/src/App';
+import Movies from './Pages/Effect';
+import Login from './Pages/Regform';
 import Todo from './Pages/Todo';
 import Accordin from './Pages/Accordin';
 
