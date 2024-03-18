@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.gradient-bg {
+  background: linear-gradient(to right, #ff8a00, #da1b60);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.book {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.book img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.book h3, .book p {
+  margin: 5px 0;
+  color: #fff;
+}

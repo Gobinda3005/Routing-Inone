@@ -1,16 +1,19 @@
 import React from 'react';
-import { Routes,Route, Outlet } from 'react-router-dom';
+import { Routes,Route } from 'react-router-dom';
 import './App.css'
 import Header from './Header';
-import Counter from '../../countdown-Timer/src/App';
-import Accordin1 from './Pages/Accordin';
-import Effect from '../../use-Effect/src/App';
-import ChangingBgcolor from '../../Changing-Bgcolor/src/App';
+// import Counter from './Allpages/countdown-Timer/src/App';
+import Accordin1 from './Allpages/Accordion1-Project/src/Acc';
+import Effect from './Allpages/use-Effect/src/App';
+import ChangingBgcolor from './Allpages/Changing-Bgcolor/src/App';
 // import ContextApi from '../../Context_Api/src/App';
-import Qupdate from '../../quote-Update/src/App';
-import Ddown from '../../L-Login/src/App';
-import Movieeffect from '../../useEffect-Movie/src/App';
-import LoginForm from '../../Login-Form/src/App';
+import Qupdate from './Allpages/quote-Update/src/App';
+// import Ddown from '../../L-Login/src/App';
+// import Movieeffect from './Allpages/useEffect-Movie/src/App';
+// import LoginForm from './Allpages/Login-Form/src/App';
+import CountdownTimer from './Allpages/countdown-Timer/src/App';
+import Movies from './Allpages/useEffect-Movie/src/App';
+import Login from './Allpages/Login-Form/src/App';
 import Todo from './Pages/Todo';
 
 const App = () => {
@@ -22,11 +25,11 @@ const App = () => {
       <Routes>
         <Route
 					path='/'
-					element={<Counter />}>
+					element={<CountdownTimer />}>
         </Route>
 				<Route
 					path='/Counter'
-					element={<Counter />}>
+					element={<CountdownTimer />}>
         </Route>
         <Route
 					path='*'
@@ -49,17 +52,17 @@ const App = () => {
 					element={<Qupdate />}>
         </Route>
         <Route
-					path='/Ddown'
-					element={<Ddown />}>
+					path='/Movieeffec'
+					element={<Movies />}>
         </Route>
         
         <Route
 					path='/Movieeffect'
-					element={<Movieeffect />}>
+					element={<Movies />}>
         </Route>
         <Route
 					path='/Regform'
-					element={<LoginForm />}>
+					element={<Login />}>
         </Route>
         <Route
 					path='*'
