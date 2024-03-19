@@ -11,7 +11,8 @@ import Qupdate from './Pages/Qupdate';
 // import Ddown from '../../L-Login/src/App';
 // import Movieeffect from './Allpages/useEffect-Movie/src/App';
 // import LoginForm from './Allpages/Login-Form/src/App';
-import CountdownTimer from './Allpages/countdown-Timer/src/App';
+// import CountdownTimer from './Pages/Counter';
+import CountdownTimer from './Page/countdown-Timer/src/App'
 import Movies from './Pages/Effect';
 import Login from './Pages/Regform';
 import Todo from './Pages/Todo';
